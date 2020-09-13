@@ -8,3 +8,12 @@ h1 {
   text-align: center;
   too:200px
 }
+
+.container {
+  background-image: url(https://www.oberlo.com/blog/animal-crossing);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
