@@ -1,3 +1,15 @@
+* {
+background-color:pink;
+}
+
+h1 {
+  color: white;
+  font-size: 52px;
+  text-align: center;
+  too:200px
+}
+
+
 .container {
   background-image: url(https://www.oberlo.com/blog/animal-crossing
   background-size: cover;
@@ -7,9 +19,9 @@
 
 }
 
-h1 {
+h2 {
   color: #fff;
-  font-size:52px;
+  font-size:48px;
   position:relative;
   text-align:center;
 
