@@ -6,5 +6,43 @@ h1 {
   color: white;
   font-size: 52px;
   text-align: center;
-  too:200px
+  top: :200px
+}
+
+button {
+  background-color:green;
+  color:white;
+  border:none;
+  padding:50px;
+}
+
+.yes-hover:hover {
+  background-color:Red;
+}
+
+
+.container1 {
+  background-image: url(https://www.oberlo.com/blog/animal-crossing
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+.container2 {
+  background-image: url(https://twitter.com/TodoNintendoS/status/1256035379200786432/photo/1
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+h2 {
+  color: #fff;
+  font-size:48px;
+  position:relative;
+  text-align:center;
+
 }
