@@ -1,74 +1,58 @@
-
 h1 {
-  color: white;
+  font-family: 'Roboto-Medium', Helvetica, sans-serif;
+  Font-size: 40pt;
+  Font-color: black
+  Text-align: left
+  Line-height: 60pt
+  Letter-spacing: 0
 }
 
-body {
-  background-color: darkgreen;
-}
-
-
-button {
-  background-color:lightgreen;
-  color:black;
-  border:none;
-  padding:50px;
-}
-
-.yes-hover:hover {
-  background-color:pink;
-}
-
-.image {
-   text-align: center;
-   position: relative;
-   width: 100%;
-}
-
-h2 {
-   position: absolute;
-   top: 200px;
-   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-
-
-p {
-  font-family: 'Unica One', Helvetica, sans-serif;
-  font-size:52px;
-  font-weight:500;
-  text-align:center;
-  width: 100%;
-  margin: 0 auto;
-  top: 65px;
-  position:relative;
-}
-
-.content {
-  text-align: center;
-  position: relative;
-}
-
-.text {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 100pt;
-  color: white;
+h2{
+  font-family: serif;
+  Font-size: 25pt
+  Font-color: Black
+  Line-height: 28pt
+  Letter-spacing: 0
 }
 
 
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: pink;
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 0px;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
+.grid-item-1 {
+  align: left;
+  justify-self: center;
+  margin-left: 700px;
 
-@media screen and (max-width: 500px) {
-  body {
-    background-color: MediumSeaGreen;
+}
+
+.grid-item-2 {
+  align: left;
+  justify-self: center;
+
+}
+
+figcaption{
+  align: right;
+}
+
+h3{
+  font-size: 10px;
+}
+
+.image1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 700px;
+}
+
+.image2{
+  margin-bottom: 30px;
+  margin-left: 700px;
 }
