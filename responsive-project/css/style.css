@@ -1,7 +1,267 @@
-* {
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style>
+
+.navigation-menu{
+  background-color:#C45B1F;
+  width: 100%;
+  margin: 0;
+}
+
+.navigation-menu a{
+  font-family: 'Roboto-Light', sans-serif;
+}
+
+.top-nav a{
+font-family: 'Roboto-Bold', sans-serif;
+color:white;
+margin-left: 30px;
+line-height: 1.75;
+}
+
+a:link {
+  text-decoration: none;
 
 }
 
-h1 {
 
+.top-nav{
+background-color:#C45B1F;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.top-nav h1{
+  color:white;
+  margin-left: 30px;
+}
+
+
+h1 {
+  font-family: 'Roboto-Light', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto-Light', sans-serif;
+  margin-left: 30px;
+  color:#C45B1F;
+}
+
+p {
+  font-family: 'Roboto-Light', sans-serif;
+  margin-left: 30px;
+}
+
+li {
+  font-family: 'Roboto-Light', sans-serif;
+  margin-left: 30px;
+}
+
+.tea li {
+  font-family: 'Roboto-Light', sans-serif;
+  line-height: 1.75;
+  margin-left: 5;
+}
+
+body { padding: 0; margin: 0; }
+
+.Specials{
+  background-color:#C45B1F;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Specials h2{
+  color:white;
+  margin-left: 30px;
+}
+
+.Specials p{
+  color:white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tea{
+  background-color:#C45B1F;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tea h2{
+  color:white;
+  margin-left: 30px;
+}
+
+.tea li{
+  color:white;
+  margin-left: 30px;
+}
+
+li, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+section {
+  background-color:#C45B1F;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  color:white;
+  font-size:2rem;
+}
+
+section h1, p, ul, li {
+  color:Black;
+}
+
+.iced-drinks, .hot-drinks, .intro {
+  width:85%;
+  margin: 0 auto;
+  color:
+}
+
+ .menu-item-row {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 0 0 1rem 0;
+}
+
+.menu-item-row p {
+  width:30%;
+}
+
+.menu-item-row ul {
+  width:60%;
+  list-style-type: none;
+  float: right;
+  text-align:right;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.menu-item-row ul li {
+  width:30%;
+  display:inline-block;
+}
+
+.drink-name{
+  margin-left: 30px;
+}
+
+.food h2{
+  color: White;
+}
+
+.food li{
+  color: White;
+  margin-left: 30px;
+  line-height: 1.75;
+}
+
+.Paninis li{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.Paninis p{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.Locations{
+
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.Contact{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.75;
+}
+
+.bottom h2{
+color: white;
+}
+
+.bottom{
+  background-color:#C45B1F;
+  width:100%;
+}
+
+
+button {
+  background-color:white;
+  color:black;
+  border:none;
+  padding:20px;
+
+}
+
+.yes-hover1:hover {
+  background-color:black;
+  color: white;
+}
+
+.yes-hover1 {
+  background-color:white;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 12pt;
+}
+
+.yes-hover2:hover {
+  background-color:black;
+  color: white;
+}
+
+.yes-hover2 {
+  background-color:white;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 12pt;
+}
+
+.bottom {
+ width: 100%;
+ display:flex;
+ justify-content: space-between;
+ align-items:flex-start;
+ padding: 0 0 1rem 0;
+}
+
+.bottom img {
+ margin-left: 30px;
+}
+
+.bottom button{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+
+.bottom-h2{
+  background-color:#C45B1F;
+}
+
+a {
+  color:#C45B1F;
+  font-family: 'Roboto-Light', sans-serif;
 }
