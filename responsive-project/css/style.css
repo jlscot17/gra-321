@@ -2,11 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 </style>
 
-.navigation-menu{
+.navigation-menu, {
   background-color:#C45B1F;
   width: 100%;
   margin: 0;
 }
+
+#orange-bg {
+  background-color:#C45B1F;
+}
+
+
 
 .navigation-menu a{
   font-family: 'Roboto-Light', sans-serif;
@@ -117,7 +123,7 @@ body {
 }
 
 section {
-  background-color:#C45B1F;
+
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -168,15 +174,17 @@ section h1, p, ul, li {
   margin-left: 30px;
 }
 
-.food h2{
+.food-sidebar h2{
   color: White;
 }
 
-.food li{
+.food-sidebar li{
   color: White;
   margin-left: 30px;
   line-height: 1.75;
 }
+
+
 
 .Paninis li{
 margin-left: 30px;
@@ -188,7 +196,7 @@ margin-left: 30px;
 margin-right: 30px;
 }
 
-.Locations{
+.Locations {
 margin-left: 30px;
 margin-right: 30px;
 margin-top: 30px;
@@ -261,6 +269,75 @@ button {
   margin-bottom: 30px;
 }
 
+.banner-image{
+  background-image: url("/Users/lindseymariegomez/Dropbox/_Projects - Current/ASU GRA 223 - Typography- (LG)/ASU GRA 321-322/321/Digital/Student Feedback Charlies Responsive/_11.2020/jessica-scott/responsive-project/coffee.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 375px;
+  height: 209px;
+  display:flex;
+  align-items: center;
+}
+
+.banner-image1{
+  background-image: url("/Users/lindseymariegomez/Dropbox/_Projects - Current/ASU GRA 223 - Typography- (LG)/ASU GRA 321-322/321/Digital/Student Feedback Charlies Responsive/_11.2020/jessica-scott/responsive-project/birdseye_coffee.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 375px;
+  height: 209px;
+  display:flex;
+  align-items: center;
+}
+
+
+.banner-image1 .banner-text {
+  color: black;
+  padding: 50px 80px;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+.about-banner {
+  background-image: url("/Users/jessicascott/Desktop/gra-321/responsive-project/img/birdseye_coffee.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 209px;
+  padding: 5%;
+  display:flex;
+  align-items: center;
+}
+
+.banner-text {
+background-color: rgba(255, 255,255, 0.8);
+width:80%;
+margin: 0 auto;
+padding: 10px;
+}
+
+.banner-text h1, .banner-text p  {
+  color:black;
+}
+
+
+
+
+
+.banner-image2{
+  background-image: url("/Users/jessicascott/Desktop/gra-321/responsive-project/img/bagel.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 375px;
+  height: 209px;
+  display:flex;
+  align-items: center;
+}
+
+.banner-image2 h1 {
+  color: black;
+  background-color:rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 0 auto;
+}
 
 .bottom-h2{
   background-color:#C45B1F;
@@ -269,4 +346,49 @@ button {
 a {
   color:#C45B1F;
   font-family: 'Roboto-Light', sans-serif;
+}
+
+@media only screen and (min-width:500px){
+  .top-nav {
+    margin-bottom: 30px;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.Specials{
+ margin-top: 30px;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.banner-image1{
+  margin-top: 30px;
+}
+
+.food-content {
+display:flex;
+width: 80%;
+
+}
+
+.food-sidebar {
+  width: 50%;
+  background-color: #C45B1F;
+
+}
+
+.food-menu {
+width: 60%;
+}
+
+.tea {
+  width: 30%;
+  background-color: #C45B1F;
+
+}
+
+
 }
