@@ -412,6 +412,18 @@ a {
 
 .Specials{
  margin-top: 30px;
+ margin-left: 135px;
+ margin-right: 135px;
+ width: 1171px;
+ height: 377px;
+}
+
+.Specials h2{
+  font-size: 60pt;
+}
+
+.Specials p{
+  font-size: 20pt;
 }
 
 .banner-image1{
@@ -447,5 +459,12 @@ inline: block;
   height: 657px;
 }
 
+.about-banner h1{
+  font-size: 60pt;
+}
+
+.about-banner p{
+  font-size: 20pt;
+}
 
 }
