@@ -401,6 +401,11 @@ a {
   width:100%;
 }
 
+.nut p{
+font-size: 20pt;
+color: white;
+}
+
 @media only screen and (min-width:400px){
   .top-nav {
     margin-bottom: 30px;
@@ -480,6 +485,11 @@ inline: block;
   width: 1171px;
   height: 657px;
 }
+
+.banner-image-drinks h1{
+  font-size: 60pt;
+}
+
 
 .banner-image-food{
   margin-top: 30px;
