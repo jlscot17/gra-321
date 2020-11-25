@@ -18,7 +18,10 @@
 
 .navigation-menu h1{
   margin-left: 30px;
+  font-size: 60pt;
 }
+
+
 
 .top-nav a{
 font-family: 'Roboto-Bold', sans-serif;
@@ -78,22 +81,22 @@ li {
 
 body { padding: 0; margin: 0; }
 
-.Specials{
-  background-color:#C45B1F;
+
+.specials-box{
+  background-color: #C45B1F;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.Specials h2{
-  color:white;
-  margin-left: 45px;
+.specials-box h1{
+  margin-left: 40px;
   margin-top: 30px;
 }
 
-.Specials p{
-  color:white;
-  margin-left: 45px;
-  margin-right: 45px;
+.specials-box p{
+  margin-left: 40px;
+  margin-top: 30px;
+  color: white;
 }
 
 .tea{
@@ -351,6 +354,7 @@ margin-bottom: 64px;
   margin-top: 23px;
   margin-left: 30px;
   margin-right: 23px;
+  align: center;
 }
 
 
@@ -401,10 +405,11 @@ a {
   width:100%;
 }
 
-.nut p{
-font-size: 20pt;
-color: white;
+.Locations h2{
+  margin-left: 30px;
 }
+
+
 
 @media only screen and (min-width:400px){
   .top-nav {
@@ -416,47 +421,39 @@ color: white;
     justify-content: space-between;
   }
 
-.Specials{
- margin-top: 30px;
- margin-bottom: 30px;
- margin-left: 135px;
- margin-right: 135px;
- width: 1171px;
- height: 377px;
-}
-
-.Specials h2{
+.top-nav a{
   font-size: 60pt;
-  margin-top: 30px;
+  font-family: 'Roboto-Light', sans-serif;
 }
 
-.Specials p{
-  font-size: 20pt;
-  background-color: #C45B1F;\
-  margin-left: 30px;
-  margin-right: 30px;
+.top-nav img{
+  width: 326.03px;
+  height:125.99px;
 }
+
+
+  .specials-box{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 135px;
+    margin-right: 135px;
+    width: 1170px;
+  }
+
+  .specials-box h1{
+    font-size: 60pt;
+  }
+
+  .specials-box p{
+    font-size: 30pt;
+  }
+
 
 .banner-image1{
   margin-top: 30px;
 }
 
-.food-content {
-display:flex;
-width: 80%;
-
-}
-
-.food-sidebar {
-  width: 30%;
-  background-color: #C45B1F;
-
-}
-
-.food-menu {
-width: 60%;
-inline: block;
-}
 
 .top-nav{
   width: 100%;
@@ -488,6 +485,7 @@ inline: block;
 
 .banner-image-drinks h1{
   font-size: 60pt;
+  align: center;
 }
 
 
@@ -498,5 +496,70 @@ inline: block;
   width: 1171px;
   height: 657px;
 }
+
+.tea{
+  width:30%;
+  margin-left: 135px;
+}
+
+.tea li{
+  font-size: 30px;
+}
+
+.tea h2{
+  font-size: 60px;
+}
+
+.top-nav img{
+  margin-left: 120px;
+}
+
+
+.food-content {
+display:flex;
+
+}
+
+.food-sidebar {
+  background-color: #C45B1F;
+  margin-left: 135px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 421px;
+
+}
+
+.food-sidebar li{
+  font-size: 30px;
+}
+
+.food-sidebar h2{
+  font-size: 60px;
+}
+
+.food-menu h2{
+  font-size: 60px;
+}
+
+
+.food-menu p{
+  font-size: 30px;
+}
+
+.food-menu li{
+  font-size: 30px;
+}
+
+.banner-text-food h1{
+  font-size: 60px;
+}
+.locations img{
+  width: 421px;
+  height: 623px;
+  margin-left: 135px;
+}
+
+
 
 }
