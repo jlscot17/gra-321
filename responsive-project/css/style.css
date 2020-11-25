@@ -87,6 +87,7 @@ body { padding: 0; margin: 0; }
 .Specials h2{
   color:white;
   margin-left: 45px;
+  margin-top: 30px;
 }
 
 .Specials p{
@@ -470,6 +471,22 @@ inline: block;
 
 .about-banner p{
   font-size: 20pt;
+}
+
+.banner-image-drinks{
+  margin-top: 30px;
+  margin-left: 135px;
+  margin-right: 135px;
+  width: 1171px;
+  height: 657px;
+}
+
+.banner-image-food{
+  margin-top: 30px;
+  margin-left: 135px;
+  margin-right: 135px;
+  width: 1171px;
+  height: 657px;
 }
 
 }
