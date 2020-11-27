@@ -422,7 +422,7 @@ a {
   }
 
 .top-nav a{
-  font-size: 60pt;
+  font-size: 30pt;
   font-family: 'Roboto-Light', sans-serif;
 }
 
@@ -560,6 +560,25 @@ display:flex;
   margin-left: 135px;
 }
 
+.Contact{
+display: flex;
+}
 
+.Contact p{
+font-size: 30pt;
+margin-left: 30px;
+}
+
+.Contact h2{
+font-size: 60pt;
+margin-left: 30px;
+}
+
+
+.Contact img{
+width: 421px;
+height: 481px;
+margin-left: 135px;
+}
 
 }
