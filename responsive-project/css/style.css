@@ -581,4 +581,18 @@ height: 481px;
 margin-left: 135px;
 }
 
+.locations{
+  display: flex;
+}
+
+.locations p{
+  font-size: 30pt;
+  margin-left: 30px;
+}
+
+.locations a{
+  font-size: 30pt;
+  margin-left: 30px;
+}
+
 }
