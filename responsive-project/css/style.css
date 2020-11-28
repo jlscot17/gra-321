@@ -154,7 +154,7 @@ section h1, p, ul, li {
   display:flex;
   justify-content: space-between;
   align-items:flex-start;
-  padding: 0 0 1rem 0;
+  padding: 0 0 5rem 0;
 }
 
 .menu-item-row p {
@@ -502,7 +502,6 @@ a {
 }
 
 .tea{
-  width:50%;
   margin-left: 135px;
 }
 
@@ -530,7 +529,7 @@ display:flex;
   margin-right: 30px;
   margin-top: 73px;
   margin-bottom: 73px;
-  width: 60%;
+  width: 80%;
 
 }
 
@@ -632,7 +631,13 @@ object-fit: cover;
   margin-bottom: 73px;
 }
 
-
+.menu-item-row {
+ width: 100%;
+ display:flex;
+ justify-content: space-between;
+ align-items:flex-start;
+ padding: 0 32rem 5rem 0;
+}
 
 
 }
