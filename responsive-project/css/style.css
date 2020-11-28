@@ -513,6 +513,10 @@ a {
   font-size: 60px;
 }
 
+.tea{
+  width: 30%;
+}
+
 .top-nav img{
   margin-left: 120px;
 }
@@ -636,7 +640,7 @@ object-fit: cover;
  display:flex;
  justify-content: space-between;
  align-items:flex-start;
- padding: 0 32rem 5rem 0;
+ padding: 0 10 5rem 0;
 }
 
 
