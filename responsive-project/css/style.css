@@ -277,6 +277,10 @@ button {
  margin-left: 30px;
 }
 
+.bottom img {
+ display: flex;
+}
+
 .bottom button{
   margin-right: 30px;
   margin-left: 30px;
@@ -574,30 +578,11 @@ font-size: 60pt;
 margin-left: 30px;
 }
 
-
-.Contact img {
-        width: 1371px;
-        height: 971.5px;
-        margin: 135px;
-        position: absolute;
-        clip: rect(421px,481px,421px,481px);
-        margin-left: 135px;
-        margin-right: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-  }
-
-  .locations img {
-          width: 1371px;
-          height: 558px;
-          margin: 135px;
-          position: absolute;
-          clip: rect(421px,623px,421px,623px);
-          margin-left: 135px;
-          margin-right: 30px;
-          margin-top: 30px;
-          margin-bottom: 30px;
-    }
+.Contact img{
+width: 421px;
+height: 481px;
+margin-left: 135px;
+}
 
 
 .locations{
@@ -617,5 +602,31 @@ margin-left: 30px;
   font-size: 60pt;
   margin-left: 30px;
 }
+
+.drink-content{
+  display: flex;
+}
+
+.drink-content h2{
+  font-size: 60pt
+
+}
+
+.drink-content li{
+  font-size: 30pt
+
+}
+
+
+.drink-name {
+  font-size: 30pt;
+}
+
+
+
+
+
+
+
 
 }
