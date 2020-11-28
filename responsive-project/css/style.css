@@ -643,5 +643,25 @@ object-fit: cover;
  padding: 0 10 5rem 0;
 }
 
+.bottom button{
+  margin-top: 73px;
+}
+
+
+.bottom img{
+  margin-top: 73px;
+}
+
+.bottom h2{
+  margin-top: 73px;
+  margin-left: 135px;
+  font-size: 60pt;
+}
+
+
+
+
+
+
 
 }
