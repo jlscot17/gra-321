@@ -575,11 +575,14 @@ margin-left: 30px;
 }
 
 
-.Contact img{
-width: 421px;
-height: 481px;
-margin-left: 135px;
-}
+.Contact img {
+        width: 1371px;
+        height: 971.5px;
+        margin: 135px;
+        position: absolute;
+        clip: rect(421px,481px,421px,481px);
+  }
+
 
 .locations{
   display: flex;
