@@ -573,12 +573,12 @@ display: flex;
 }
 
 .Contact p{
-font-size: 30pt;
+font-size: 20pt;
 margin-left: 30px;
 }
 
 .Contact h2{
-font-size: 60pt;
+font-size: 30pt;
 margin-left: 30px;
 }
 
@@ -653,7 +653,6 @@ object-fit: cover;
 }
 
 .bottom h2{
-  margin-top: 73px;
   margin-left: 135px;
   font-size: 60pt;
 }
