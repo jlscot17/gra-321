@@ -31,13 +31,13 @@ line-height: 1.75;
 }
 
 .top-nav img{
-margin-left: 30px;
+margin-left: 50px;
 }
 
 
 a:link {
   text-decoration: none;
-  margin-left: 20px;
+
 }
 
 
@@ -59,7 +59,6 @@ h1 {
 
 h2 {
   font-family: 'Roboto-Light', sans-serif;
-  margin-left: 30px;
   color:#C45B1F;
 }
 
@@ -215,13 +214,7 @@ width 100%;
   line-height: 1.75;
 }
 
-.contact h2{
-  margin-left: 30px;
-}
 
-.contact img{
-width:100%;
-}
 .bottom h2{
 color: white;
 }
@@ -265,13 +258,7 @@ button {
   font-size: 12pt;
 }
 
-.bottom {
- width: 100%;
- display:flex;
- justify-content: space-between;
- align-items:flex-start;
- padding: 0 0 1rem 0;
-}
+
 
 .bottom img {
  margin-left: 30px;
@@ -361,19 +348,32 @@ margin-bottom: 64px;
   align: center;
 }
 
+.locations{
+  align-self: left;
+}
 
 .locations p{
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
+.locations h1{
+  margin-left: 30px;
+  color: #C45B1F;
+}
+
 .locations a{
   margin-left: 30px;
 }
-
-.contact h2{
-margin-left: 30px;
+.contact img{
+  width: 100%;
 }
+
+.contact-text{
+  margin-left: 30px;
+}
+
+
 
 .banner-image-drinks{
   background-image: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
@@ -409,10 +409,36 @@ a {
   width:100%;
 }
 
-.Locations h2{
+
+.facebook-button{
+  display: flex;
+  align-items: stretch;
+}
+
+.instagram-button{
+  display: flex;
+  align-items: stretch;
+}
+
+.food-menu h2{
   margin-left: 30px;
 }
 
+.food-sidebar h2{
+  margin-left: 30px;
+}
+
+.food-sidebar h2{
+  margin-top: 30px;
+}
+
+.drinks h2{
+  margin-left: 30px;
+}
+
+.bottom h2{
+  margin-left: 30px;
+}
 
 
 @media only screen and (min-width:400px){
@@ -563,22 +589,18 @@ display:flex;
 }
 .locations img{
   width: 421px;
-  height: 623px;
+  height: 600px;
   margin-left: 135px;
   object-fit: cover;
 }
 
 .Contact{
 display: flex;
+margin-bottom: 73px;
 }
 
 .Contact p{
 font-size: 20pt;
-margin-left: 30px;
-}
-
-.Contact h2{
-font-size: 30pt;
 margin-left: 30px;
 }
 
@@ -592,19 +614,20 @@ object-fit: cover;
 
 .locations{
   display: flex;
+  margin-bottom: 73px;
 }
 
 .locations p{
-  font-size: 30pt;
+  font-size: 20pt;
   margin-left: 30px;
 }
 
 .locations a{
-  font-size: 30pt;
+  font-size: 20pt;
   margin-left: 30px;
 }
 .locations h2{
-  font-size: 60pt;
+  font-size: 40pt;
   margin-left: 30px;
 }
 
@@ -640,7 +663,7 @@ object-fit: cover;
  display:flex;
  justify-content: space-between;
  align-items:flex-start;
- padding: 0 10 5rem 0;
+ padding: 0 20 5rem 20;
 }
 
 .bottom button{
@@ -657,7 +680,13 @@ object-fit: cover;
   font-size: 60pt;
 }
 
-
+.bottom {
+ width: 100%;
+ display:flex;
+ justify-content: space-between;
+ align-items:flex-start;
+ padding: 0 0 1rem 0;
+}
 
 
 
