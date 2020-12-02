@@ -689,6 +689,11 @@ object-fit: cover;
 }
 
 
+.banner-text{
+  position: absolute;
+}
+
+
 
 
 
