@@ -217,6 +217,7 @@ width 100%;
 
 .bottom h2{
 color: white;
+margin-top: 30px;
 }
 
 .bottom{
@@ -266,6 +267,7 @@ button {
 
 .bottom img {
  display: flex;
+ align-items: center;
 }
 
 .bottom button{
@@ -596,12 +598,12 @@ display:flex;
 
 .Contact{
 display: flex;
+align-items:stretch;
 margin-bottom: 73px;
 }
 
 .Contact p{
 font-size: 20pt;
-margin-left: 30px;
 }
 
 .Contact img{
@@ -615,6 +617,7 @@ object-fit: cover;
 .locations{
   display: flex;
   margin-bottom: 73px;
+  align-items:center;
 }
 
 .locations p{
@@ -628,7 +631,10 @@ object-fit: cover;
 }
 .locations h2{
   font-size: 40pt;
-  margin-left: 30px;
+}
+
+.Contact h2{
+  font-size: 40pt;
 }
 
 .drink-content{
@@ -677,14 +683,15 @@ object-fit: cover;
 
 .bottom h2{
   margin-left: 135px;
-  font-size: 60pt;
+  font-size: 30pt;
+  margin-top: 20px;
 }
 
 .bottom {
  width: 100%;
  display:flex;
  justify-content: space-between;
- align-items:flex-start;
+ align-items: center;
  padding: 0 0 1rem 0;
 }
 
@@ -694,7 +701,9 @@ object-fit: cover;
   width:60%;
 }
 
-
+.banner-image-drinks{
+  margin-bottom: 73px;
+}
 
 
 
